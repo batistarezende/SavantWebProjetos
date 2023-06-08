@@ -23,7 +23,7 @@ header{
 }
 .menu-principal {
     width: 100%; /*Aqui digo pra ele preencher e 100%*/
-    background-color: aquamarine; /**/
+    /*background-color: aquamarine; /**/
     height: 85px;
     
 }
@@ -53,4 +53,8 @@ header{
 .btn-menu a:hover::after{
     width: 100%;
 
+}
+
+.menu-apresentacao {
+    background-color: red;
 }
