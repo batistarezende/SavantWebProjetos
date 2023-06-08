@@ -13,5 +13,4 @@ function proximoSlide(){
     }
 
 document.getElementById('slide'+cont).checked = true
-
 }
