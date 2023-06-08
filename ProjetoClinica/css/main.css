@@ -99,10 +99,31 @@ cursor: pointer;
 transition: 0.2s;
 }
 /*espaçamento entres os botões*/
-.nav-manual .manual-btn:not(:last-child){
+.nav-manual .manual-btn:not(:last-child), .nav-auto :not(:last-child){
 margin-right: 10px;
 }
 .nav-manual .manual-btn:hover{
     background-color: #ff0054;
 }
 
+/*coloração dos botões*/
+#slide1:checked ~ .nav-auto .auto-btn1{
+    background-color: #ff0054;
+}
+#slide2:checked ~ .nav-auto .auto-btn2{
+    background-color: coral;
+}
+#slide3:checked ~ .nav-auto .auto-btn3{
+    background-color: cornflowerblue;
+}
+
+/*tempo de oscilação*/
+#slide1:checked ~ .primeiro{
+    margin-left: 0%;
+}
+#slide2:checked ~ .primeiro{
+    margin-left: -25%;
+}
+#slide3:checked ~ .primeiro{
+    margin-left: -50%;
+}
