@@ -40,7 +40,7 @@ header{
     position: relative;
 }
 
-.btn-menu a::after {
+.btn-menu a::after { /*Animação do css nos botões do menu*/
     content: " ";
     width: 0%;
     height: 2px;
@@ -50,11 +50,10 @@ header{
     left: 0;
     transition: 0.5s ease-in-out;
 }
-.btn-menu a:hover::after{
+.btn-menu a:hover::after{ /*Animação do css nos botões do menu*/
     width: 100%;
-
 }
 
-.menu-apresentacao {
+.slide-apresentacao {
     background-color: red;
 }
