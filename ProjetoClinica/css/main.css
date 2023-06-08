@@ -53,7 +53,56 @@ header{
 .btn-menu a:hover::after{ /*Animação do css nos botões do menu*/
     width: 100%;
 }
-
-.slide-apresentacao {
-    background-color: red;
+/*aqui altera os slites e as imagens*/
+.selection.slide-apresentacao{
+ margin: 0 auto;
+ width: 100%;
+ height: auto;
+ padding: 0 !important; /*para não criar paddings quanto for pra mobile ou telas maiores*/
+ overflow: hidden;
 }
+.slide-apresentacao {
+background-color: red;
+width: 400%;
+height: auto;
+display: flex;
+}
+.slide-apresentacao input, .img-mobile{  /* .img-mobile aqui pra ocultar as img mobiles quando visto no pc*/
+display: none;
+}
+
+.caixa-slide{
+width: 25%;
+height: auto;
+position: relative;
+text-align: center;
+}
+
+.caixa-slide img{
+width: 100%;
+}
+
+/*os botões*/
+.nav-manual{
+position: absolute;
+width: 100%;
+margin-top: 35%;
+display: flex;
+justify-content: center;
+}
+
+.nav-manual .manual-btn{
+border: 1px solid #ff0054;
+padding: 10px;
+border-radius: 50%;
+cursor: pointer;
+transition: 0.2s;
+}
+/*espaçamento entres os botões*/
+.nav-manual .manual-btn:not(:last-child){
+margin-right: 10px;
+}
+.nav-manual .manual-btn:hover{
+    background-color: #ff0054;
+}
+
