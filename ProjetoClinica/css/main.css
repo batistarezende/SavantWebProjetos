@@ -55,6 +55,33 @@ header{
     width: 100%;
 }
 
+/*Parte Serviços*/
+.tabelas{
+    display: flex;
+
+}
+table {
+   border-collapse: collapse;
+}
+  
+  td {
+    padding: 10px; 
+    border: 1px solid black; 
+    text-align: center; 
+  }
+  
+  td img {
+    width: 200px; 
+    height: 200px; 
+  }
+  
+  td h1 {
+    margin-top: 5px;
+    font-size: larger;
+  }
+  
+
+
 /*Parte Google Maps*/
 .map-box {
     position: relative;
