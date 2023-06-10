@@ -55,16 +55,14 @@ header{
     width: 100%;
 }
 /*aqui altera os slites e as imagens*/
-.selection.slide-apresentacao{
- margin: 0 auto;
+.selection.slide-apresentacao {
  width: 100%;
- height: auto;
+ height: 200px;
  padding: 0 !important; /*para não criar paddings quanto for pra mobile ou telas maiores*/
  overflow: hidden;
 }
 .slide-apresentacao {
-background-color: red;
-width: 400%;
+width: 100%;
 height: auto;
 display: flex;
 }
@@ -73,7 +71,7 @@ display: none;
 }
 
 .caixa-slide{
-width: 25%;
+width: 100%;
 height: auto;
 position: relative;
 text-align: center;
@@ -113,10 +111,10 @@ margin-right: 10px;
     background-color: #ff0054;
 }
 #slide2:checked ~ .nav-auto .auto-btn2{
-    background-color: coral;
+    background-color: #ff0054;
 }
 #slide3:checked ~ .nav-auto .auto-btn3{
-    background-color: cornflowerblue;
+    background-color: #ff0054;
 }
 
 /*tempo de oscilação*/
