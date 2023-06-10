@@ -23,7 +23,7 @@ header{
     text-align: right;
 }
 .menu-principal {
-    width: 100%; /*Aqui digo pra ele preencher a 100%*/
+    width: 100%; /*Aqui digo pra ele preencher em 100%*/
     /*background-color: aquamarine; /**/
     height: 85px;
     
