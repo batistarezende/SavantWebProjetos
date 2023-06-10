@@ -70,3 +70,9 @@ header{
     display: inline-block;
 }
 /****************************************************************/
+
+/*Parte Footer*/
+.footer-background {
+    background-color: grey;
+}
+/**************************************/
