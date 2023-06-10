@@ -1,4 +1,4 @@
-/*Main Principal*/
+/*Testes*/
 body {
     width: 100%;
     height: 100%;
@@ -23,7 +23,7 @@ header{
     text-align: right;
 }
 .menu-principal {
-    width: 100%; /*Aqui digo pra ele preencher em 100%*/
+    width: 100%; /*Aqui digo pra ele preencher e 100%*/
     /*background-color: aquamarine; /**/
     height: 85px;
     
@@ -54,76 +54,19 @@ header{
 .btn-menu a:hover::after{ /*Animação do css nos botões do menu*/
     width: 100%;
 }
-/*aqui altera os slites e as imagens*/
-.selection.slide-apresentacao {
- width: 100%;
- height: 200px;
- padding: 0 !important; /*para não criar paddings quanto for pra mobile ou telas maiores*/
- overflow: hidden;
-}
-.slide-apresentacao {
-width: 100%;
-height: auto;
-display: flex;
-}
-.slide-apresentacao input, .img-mobile{  /* .img-mobile aqui pra ocultar as img mobiles quando visto no pc*/
-display: none;
-}
 
-.caixa-slide{
-width: 100%;
-height: auto;
-position: relative;
-text-align: center;
+/*Parte Google Maps*/
+.map-box {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    float: right;
 }
-
-.caixa-slide img{
-width: 100%;
+.container{
+    display: flex;
 }
-
-/*os botões*/
-.nav-manual, .nav-auto{
-position: absolute;
-width: 100%;
-margin-top: 35%;
-display: flex;
-justify-content: center;
+.ajuste-lateral{
+    display: inline-block;
 }
-
-.nav-manual .manual-btn, .nav-auto div{
-border: 1px solid #ff0054;
-padding: 10px;
-border-radius: 50%;
-cursor: pointer;
-transition: 0.2s;
-}
-
-/*espaçamento entres os botões*/
-.nav-manual .manual-btn:not(:last-child), .nav-auto :not(:last-child){
-margin-right: 10px;
-}
-.nav-manual .manual-btn:hover{
-    background-color: #ff0054;
-}
-
-/*coloração dos botões*/
-#slide1:checked ~ .nav-auto .auto-btn1{
-    background-color: #ff0054;
-}
-#slide2:checked ~ .nav-auto .auto-btn2{
-    background-color: #ff0054;
-}
-#slide3:checked ~ .nav-auto .auto-btn3{
-    background-color: #ff0054;
-}
-
-/*tempo de oscilação*/
-#slide1:checked ~ .primeiro{
-    margin-left: 0%;
-}
-#slide2:checked ~ .primeiro{
-    margin-left: -25%;
-}
-#slide3:checked ~ .primeiro{
-    margin-left: -50%;
-}
+/****************************************************************/
