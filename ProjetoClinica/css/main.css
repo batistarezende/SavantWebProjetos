@@ -56,30 +56,28 @@ header{
 }
 
 /*Parte Serviços*/
-.tabelas{
+.container {
     display: flex;
+    justify-content: space-between;
+    margin-right: 65%;
 }
-table {
-   border-collapse: collapse;
-   width: 30%;
-   
+
+.image {
+    text-align: center;
+    margin-bottom: 20px;
 }
-  
-  td {
-    padding: 10px; 
-    border: 1px dotted black; 
-    text-align: center; 
-  }
-  
-  td img {
-    width: 200px; 
-    height: 200px; 
-  }
-  
-  td h1 {
-    margin-top: 5px;
-    font-size: larger;
-  }
+
+.image img {
+    width: 200px;
+    height: 200px;
+}
+
+.caption {
+    text-align: center;
+    margin-top: -5px;
+    font-size: medium;
+}
+
 
 
   
