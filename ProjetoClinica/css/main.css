@@ -56,31 +56,29 @@ header{
 }
 
 /*Parte Serviços*/
-.container {
+.conteiner-card{
+    width: 14%;
+    border: 1px solid grey;
+    margin: 0 20px;
     display: flex;
-    justify-content: space-between;
-    margin-right: 65%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-
-.image {
-    text-align: center;
-    margin-bottom: 20px;
+article{
+    display: flex;
 }
-
-.image img {
+.conteiner-card img{
     width: 200px;
     height: 200px;
 }
-
-.caption {
-    text-align: center;
-    margin-top: -5px;
-    font-size: medium;
+.caption p{
+   width: 70%;
+}
+.caption{
+    padding: 0 px;
 }
 
-
-
-  
 
 
 /*Parte Google Maps*/
